@@ -1,0 +1,246 @@
+.section-about {
+  position: relative;
+}
+
+.padding-global {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.padding-global.padding-section-large {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+@media screen and (max-width: 767px) {
+  .padding-global.padding-section-large {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+.padding-section-large {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+@media screen and (max-width: 991px) {
+  .padding-section-large {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .padding-section-large {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+.padding-section-medium {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media screen and (max-width: 991px) {
+  .padding-section-medium {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .padding-section-medium {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+.padding-section-small {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+@media screen and (max-width: 767px) {
+  .padding-section-small {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+.relative-about {
+  position: relative;
+  z-index: 2;
+  padding-right: 144px;
+  padding-bottom: 112px;
+  padding-left: 144px;
+}
+
+@media screen and (max-width: 991px) {
+  .relative-about {
+    padding-right: 0px;
+    padding-bottom: 5rem;
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .relative-about {
+    padding-bottom: 3rem;
+  }
+}
+
+.about-bg-line {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+
+  display: block;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container {
+  max-width: 71rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.about-wrap {
+  display: grid;
+  align-items: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .about-wrap {
+    grid-template-columns: 1fr;
+  }
+}
+
+.about-image-wrap {
+  position: relative;
+
+  display: flex;
+  min-width: 23.9375rem;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 40px;
+
+  background-color: hsla(215, 64.86%, 14.51%, 1.00);
+  background-image: linear-gradient(90deg, hsla(207.23076923076925, 54.17%, 52.94%, 0.27), hsla(207.4766355140187, 55.44%, 37.84%, 0.27));
+}
+
+@media screen and (max-width: 991px) {
+  .about-image-wrap {
+    min-width: 18.75rem;
+    padding: 0.5rem;
+    aspect-ratio: 1/1;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .about-image-wrap {
+    min-height: 100%;
+    min-width: 80%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .about-image-wrap {
+    min-width: 100%;
+  }
+}
+
+.about-image-bg {
+  position: absolute;
+  max-width: 95%;
+}
+
+@media screen and (max-width: 991px) {
+  .about-image-bg {
+    max-width: 90%;
+    min-height: 93%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .about-image-bg {
+    position: absolute;
+  }
+}
+
+.about-image {
+  position: static;
+}
+
+@media screen and (max-width: 767px) {
+  .about-image {
+    position: static;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .mb-text-align-center {
+    text-align: center;
+  }
+}
+
+.h2-omnifi {
+  font-family: Questrial;
+  font-size: 3.75rem;
+  line-height: 1;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 767px) {
+  .h2-omnifi {
+    text-align: center;
+  }
+}
+
+.spacer-large {
+  padding-top: 4rem;
+}
+
+@media screen and (max-width: 479px) {
+  .spacer-large {
+    padding-top: 1.5rem;
+  }
+}
+
+.max-width-medium {
+  width: 100%;
+}
+
+#w-node-_55f2b220-cb25-417b-8e65-8465e8af7ccf-e8af7ccc {
+}
+@media screen and (max-width: 767px) {
+  #w-node-_55f2b220-cb25-417b-8e65-8465e8af7cd2-e8af7ccc {
+    justify-self: center;
+  }
+}
+@media screen and (max-width: 479px) {
+  #w-node-_55f2b220-cb25-417b-8e65-8465e8af7cd2-e8af7ccc {
+    grid-column-end: 2;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-row-start: 1;
+  }
+  #w-node-_55f2b220-cb25-417b-8e65-8465e8af7cd5-e8af7ccc {
+    grid-column-end: 2;
+    grid-column-start: 1;
+    grid-row-end: 2;
+    grid-row-start: 2;
+  }
+}
